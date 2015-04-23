@@ -2,7 +2,7 @@ import json
 import urllib.request
 import urllib.parse
 import urllib.error
-
+import elgamal
 
 class ServerError(Exception):
     def __init__(self, code=None, msg=None):
